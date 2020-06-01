@@ -1,4 +1,4 @@
-*Exercise 4.23
+#Exercise 4.23
 The following expression fails to compile due to operator precedence. Using Table 4.12 (p. 166), explain why it fails. How would you fix it?
 
 ```
@@ -12,7 +12,7 @@ Fix:
 string pl = s + (s[s.size() - 1] == 's' ? "" : "s") ;
 ```
 
-*Exercise 4.24
+#Exercise 4.24
 Our program that distinguished between high pass, pass, and fail depended on the fact that the conditional operator is right associative. Describe how that operator would be evaluated if the operator were left associative.
 
 The program 
